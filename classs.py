@@ -1,0 +1,26 @@
+class Car:
+    def __init__(self, speed, color, model):
+        self.model = model
+        self.speed = speed
+        self.color = color
+
+    def boogh(self):
+        print('BEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEP')
+
+    def brake(self):
+        print('EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEHH')
+
+# Creating an instance of Car
+tasla_1 = Car(
+    999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999,
+    'white',
+    '98xx0'
+)
+
+print(tasla_1.speed)
+
+# Subclassing Car
+class Elccar(Car):
+    def __init__(self, speed, color, model, battery_capacity):
+        super().__init__(speed, color, model)
+        self.battery_capacity = battery_capacity
